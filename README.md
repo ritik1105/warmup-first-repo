@@ -9,13 +9,16 @@ letting you save snapshots, undo mistakes, and collaborate with others.
 - **Staging area** — changes queued for the next commit (git add)
 - **Local repository** — saved snapshots (git commit)
 
-## Key Commands I Learned
-'git init' : Start a new Git repo
-'git add .' : Stage all changes
-'git commit -m "message"' : Save a snapshot of your work
-'git push' : Upload commits to GitHub
-'git pull' : Download latest changes
-'git checkout -b name' : Create and switch to a branch
+## Key commands I learned
+| Command | What it does |
+|---|---|
+| `git init` | Start a new Git repo |
+| `git add .` | Stage all changes |
+| `git commit -m "message"` | Save a snapshot |
+| `git push` | Upload commits to GitHub |
+| `git pull` | Download latest changes |
+| `git checkout -b name` | Create and switch to a branch |
+
 
 ## Branching strategy
 - `main` — production code, always deployable
